@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url(../images/island.jpg);
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background:transparent;
+  }
+  .nav-link{
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  .navbar-brand {
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 35px;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-start;
+  }
+
+
+  /* CHANGE */
+  div#myTabContent {
+    min-height: 350px;
+    border-top: 3px solid crimson;
+    background: rgba(245, 245, 220, 0.8);
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+.search-tabbed-panel {
+    position: relative;
+    top: 225px;
+}
+
+.search-tabbed-panel a {
+    text-transform: initial;
+}
+
+  @media (max-width: 768px) {
+
+  }
