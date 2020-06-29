@@ -27,8 +27,6 @@ body {
     justify-content: flex-start;
   }
 
-
-  /* CHANGE */
   div#myTabContent {
     min-height: 350px;
     border-top: 3px solid crimson;
